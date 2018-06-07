@@ -16992,110 +16992,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="esp8266modules">
-<packages>
-<package name="ESP07-16PIN">
-<description>ESP8266 Module ESP-07 - 16 pins</description>
-<wire x1="-7.9" y1="12.4" x2="-7.9" y2="6.4" width="0.127" layer="21"/>
-<wire x1="-7.9" y1="6.4" x2="-7.9" y2="-9.6" width="0.127" layer="21"/>
-<wire x1="-7.9" y1="-9.6" x2="8.1" y2="-9.6" width="0.127" layer="21"/>
-<wire x1="8.1" y1="-9.6" x2="8.1" y2="6.4" width="0.127" layer="21"/>
-<wire x1="8.1" y1="6.4" x2="8.1" y2="10.4" width="0.127" layer="21"/>
-<wire x1="8.1" y1="10.4" x2="8.1" y2="12.4" width="0.127" layer="21"/>
-<wire x1="8.1" y1="12.4" x2="6.1" y2="12.4" width="0.127" layer="21"/>
-<wire x1="6.1" y1="12.4" x2="-7.9" y2="12.4" width="0.127" layer="21"/>
-<wire x1="6.1" y1="12.4" x2="6.1" y2="10.4" width="0.127" layer="21"/>
-<wire x1="6.1" y1="10.4" x2="8.1" y2="10.4" width="0.127" layer="21"/>
-<circle x="7.1" y="11.4" radius="0.806225" width="0.127" layer="21"/>
-<circle x="7.1" y="11.4" radius="0.1" width="0.127" layer="21"/>
-<smd name="TX" x="8.2" y="5.8" dx="2.5" dy="1" layer="1" roundness="17"/>
-<smd name="RX" x="8.2" y="3.8" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO4" x="8.2" y="1.8" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO5" x="8.2" y="-0.2" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO0" x="8.2" y="-2.2" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO2" x="8.2" y="-4.2" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO15" x="8.2" y="-6.2" dx="2.5" dy="1" layer="1"/>
-<smd name="REST" x="-8.2" y="5.8" dx="2.5" dy="1" layer="1"/>
-<smd name="ADC" x="-8.2" y="3.8" dx="2.5" dy="1" layer="1"/>
-<smd name="CH_PD" x="-8.2" y="1.8" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO16" x="-8.2" y="-0.2" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO14" x="-8.2" y="-2.2" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO12" x="-8.2" y="-4.2" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO13" x="-8.2" y="-6.2" dx="2.5" dy="1" layer="1"/>
-<text x="-3.8" y="8.7" size="1.016" layer="21">ESP-07</text>
-<rectangle x1="-7" y1="8" x2="-4" y2="11" layer="21"/>
-<rectangle x1="2" y1="8" x2="5" y2="11" layer="21"/>
-<text x="-8" y="13" size="1.27" layer="25">&gt;Name</text>
-<text x="-8" y="-11.1" size="1.27" layer="27">&gt;Value</text>
-<smd name="VCC" x="-8.2" y="-8.105" dx="2.5" dy="1" layer="1"/>
-<smd name="GND" x="8.2" y="-8.105" dx="2.5" dy="1" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ESP07-16PIN">
-<description>ESP8266 Module ESP-07 - 16 pins</description>
-<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<pin name="RESET" x="-17.78" y="7.62" visible="pin" length="middle"/>
-<pin name="ADC" x="-17.78" y="5.08" visible="pin" length="middle"/>
-<pin name="CH_PD" x="-17.78" y="2.54" visible="pin" length="middle"/>
-<pin name="GPIO16" x="-17.78" y="0" visible="pin" length="middle"/>
-<pin name="GPIO14" x="-17.78" y="-2.54" visible="pin" length="middle"/>
-<pin name="GPIO12" x="-17.78" y="-5.08" visible="pin" length="middle"/>
-<pin name="GPIO13" x="-17.78" y="-7.62" visible="pin" length="middle"/>
-<pin name="VCC" x="-17.78" y="-10.16" visible="pin" length="middle"/>
-<pin name="GND" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO15" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO2" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO0" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO5" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO4" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="RX" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="TX" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
-<text x="-12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
-<text x="-12.7" y="-15.24" size="1.778" layer="96">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ESP07-16PIN">
-<description>ESP8266 Wifi module 07 - 16 pins</description>
-<gates>
-<gate name="G$1" symbol="ESP07-16PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ESP07-16PIN">
-<connects>
-<connect gate="G$1" pin="ADC" pad="ADC"/>
-<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
-<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
-<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
-<connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
-<connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
-<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
-<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
-<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
-<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
-<connect gate="G$1" pin="RESET" pad="REST"/>
-<connect gate="G$1" pin="RX" pad="RX"/>
-<connect gate="G$1" pin="TX" pad="TX"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIMENSIONS" value="22.0 x 16.0 mm" constant="no"/>
-<attribute name="PINS" value="16"/>
-<attribute name="PITCH" value="0.078&quot; / 2 mm" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Wurth_Elektronik_Electromechanic_Switch_rev17c" urn="urn:adsk.eagle:library:480">
 <description>&lt;BR&gt;Wurth Elektronik - Switches&lt;br&gt;&lt;Hr&gt;
 &lt;BR&gt;&lt;BR&gt; 
@@ -17292,6 +17188,108 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="esp8266modules">
+<packages>
+<package name="ESP07-16PIN">
+<description>ESP8266 Module ESP-07 - 16 pins</description>
+<wire x1="-6.63" y1="12.4" x2="-6.63" y2="-9.6" width="0.127" layer="21"/>
+<wire x1="-6.63" y1="-9.6" x2="6.83" y2="-9.6" width="0.127" layer="21"/>
+<wire x1="6.83" y1="-9.6" x2="6.83" y2="10.4" width="0.127" layer="21"/>
+<wire x1="6.83" y1="10.4" x2="6.83" y2="12.4" width="0.127" layer="21"/>
+<wire x1="6.83" y1="12.4" x2="4.83" y2="12.4" width="0.127" layer="21"/>
+<wire x1="4.83" y1="12.4" x2="-6.63" y2="12.4" width="0.127" layer="21"/>
+<wire x1="4.83" y1="12.4" x2="4.83" y2="10.4" width="0.127" layer="21"/>
+<wire x1="4.83" y1="10.4" x2="6.83" y2="10.4" width="0.127" layer="21"/>
+<circle x="5.83" y="11.4" radius="0.806225" width="0.127" layer="21"/>
+<circle x="5.83" y="11.4" radius="0.1" width="0.127" layer="21"/>
+<smd name="TX" x="8.2" y="5.8" dx="2.5" dy="1" layer="1" roundness="17"/>
+<smd name="RX" x="8.2" y="3.8" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO4" x="8.2" y="1.8" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO5" x="8.2" y="-0.2" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO0" x="8.2" y="-2.2" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO2" x="8.2" y="-4.2" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO15" x="8.2" y="-6.2" dx="2.5" dy="1" layer="1"/>
+<smd name="REST" x="-8.2" y="5.8" dx="2.5" dy="1" layer="1"/>
+<smd name="ADC" x="-8.2" y="3.8" dx="2.5" dy="1" layer="1"/>
+<smd name="CH_PD" x="-8.2" y="1.8" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO16" x="-8.2" y="-0.2" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO14" x="-8.2" y="-2.2" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO12" x="-8.2" y="-4.2" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO13" x="-8.2" y="-6.2" dx="2.5" dy="1" layer="1"/>
+<text x="-1.26" y="6.16" size="1.016" layer="21">ESP-07</text>
+<rectangle x1="-5.73" y1="8" x2="-2.73" y2="11" layer="21"/>
+<rectangle x1="0.73" y1="8" x2="3.73" y2="11" layer="21"/>
+<text x="-6.73" y="13" size="1.27" layer="25">&gt;Name</text>
+<text x="-8" y="-11.1" size="1.27" layer="27">&gt;Value</text>
+<smd name="VCC" x="-8.2" y="-8.105" dx="2.5" dy="1" layer="1"/>
+<smd name="GND" x="8.2" y="-8.105" dx="2.5" dy="1" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP07-16PIN">
+<description>ESP8266 Module ESP-07 - 16 pins</description>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="RESET" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="ADC" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="CH_PD" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="GPIO16" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="GPIO14" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="GPIO12" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="GPIO13" x="-17.78" y="-7.62" visible="pin" length="middle"/>
+<pin name="VCC" x="-17.78" y="-10.16" visible="pin" length="middle"/>
+<pin name="GND" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO15" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO2" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO0" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO5" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO4" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="RX" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="TX" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
+<text x="-12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-12.7" y="-15.24" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP07-16PIN">
+<description>ESP8266 Wifi module 07 - 16 pins</description>
+<gates>
+<gate name="G$1" symbol="ESP07-16PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP07-16PIN">
+<connects>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
+<connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="RESET" pad="REST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIMENSIONS" value="22.0 x 16.0 mm" constant="no"/>
+<attribute name="PINS" value="16"/>
+<attribute name="PITCH" value="0.078&quot; / 2 mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17310,7 +17308,6 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CH_PD" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39293/1"/>
-<part name="U$1" library="esp8266modules" deviceset="ESP07-16PIN" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="S1" library="Wurth_Elektronik_Electromechanic_Switch_rev17c" library_urn="urn:adsk.eagle:library:480" deviceset="430152043826" device="" package3d_urn="urn:adsk.eagle:package:33623/1"/>
@@ -17334,6 +17331,7 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <part name="U$6" library="headers_2mm" deviceset="1X1" device=""/>
 <part name="U$7" library="headers_2mm" deviceset="1X1" device=""/>
 <part name="U$8" library="headers_2mm" deviceset="1X1" device=""/>
+<part name="U$1" library="esp8266modules" deviceset="ESP07-16PIN" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17356,7 +17354,6 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <instance part="CH_PD" gate="G$1" x="167.64" y="50.8" smashed="yes">
 <attribute name="NAME" x="170.18" y="51.181" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U$1" gate="G$1" x="149.86" y="5.08"/>
 <instance part="GND3" gate="1" x="180.34" y="-10.16"/>
 <instance part="P+3" gate="VCC" x="106.68" y="-2.54"/>
 <instance part="S1" gate="G$1" x="208.28" y="5.08"/>
@@ -17404,6 +17401,7 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <instance part="U$6" gate="G$1" x="177.8" y="20.32" rot="R270"/>
 <instance part="U$7" gate="G$1" x="185.42" y="25.4" rot="R270"/>
 <instance part="U$8" gate="G$1" x="190.5" y="20.32" rot="R270"/>
+<instance part="U$1" gate="G$1" x="149.86" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -17427,7 +17425,6 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <wire x1="91.44" y1="-10.16" x2="91.44" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="165.1" y1="-5.08" x2="180.34" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-5.08" x2="180.34" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -17435,6 +17432,7 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <wire x1="177.8" y1="-2.54" x2="180.34" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-2.54" x2="180.34" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="180.34" y="-5.08"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
@@ -17460,9 +17458,9 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <wire x1="83.82" y1="-5.08" x2="91.44" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="132.08" y1="-5.08" x2="106.68" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -17482,9 +17480,9 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RX"/>
 <wire x1="165.1" y1="10.16" x2="172.72" y2="10.16" width="0.1524" layer="91"/>
 <label x="172.72" y="10.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="RX"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="JP" pin="P2/A2/TXD1"/>
@@ -17494,9 +17492,9 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="TX"/>
 <wire x1="165.1" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
 <label x="172.72" y="12.7" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="TX"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="JP" pin="P3/A3/RXD1"/>
@@ -17562,29 +17560,29 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="CH_PD"/>
 <wire x1="132.08" y1="7.62" x2="129.54" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="15.24" x2="129.54" y2="7.62" width="0.1524" layer="91"/>
 <junction x="129.54" y="7.62"/>
+<pinref part="U$1" gate="G$1" pin="CH_PD"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO0"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="2.54" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="2.54" x2="167.64" y2="25.4" width="0.1524" layer="91"/>
 <junction x="167.64" y="2.54"/>
 <pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="GPIO0"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO15"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="-2.54" x2="167.64" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GPIO15"/>
 </segment>
 </net>
 <net name="P6" class="0">
@@ -17614,10 +17612,8 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <net name="N$4" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="RESET"/>
 <wire x1="129.54" y1="12.7" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="15.24" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
-<junction x="132.08" y="12.7"/>
 <wire x1="132.08" y1="15.24" x2="106.68" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="15.24" x2="106.68" y2="5.08" width="0.1524" layer="91"/>
@@ -17625,50 +17621,52 @@ http://katalog.we-online.de/em/datasheet/4301x2xxx8x6.pdf&lt;/a&gt;&lt;p&gt;
 <pinref part="U$3" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="25.4" x2="132.08" y2="15.24" width="0.1524" layer="91"/>
 <junction x="132.08" y="15.24"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GPIO16"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="RESET"/>
+<junction x="132.08" y="12.7"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="GPIO12"/>
 <wire x1="93.98" y1="0" x2="132.08" y2="0" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GPIO12"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="GPIO14"/>
 <wire x1="101.6" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GPIO14"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO4"/>
 <pinref part="U$6" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="7.62" x2="177.8" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="7.62" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GPIO4"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO5"/>
 <pinref part="U$7" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="5.08" x2="185.42" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="5.08" x2="185.42" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GPIO5"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO2"/>
 <pinref part="U$8" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="0" x2="190.5" y2="0" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="0" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GPIO2"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="GPIO16"/>
 </segment>
 </net>
 </nets>
