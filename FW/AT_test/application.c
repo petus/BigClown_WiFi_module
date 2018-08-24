@@ -11,7 +11,6 @@ void button_event_handler(bc_button_t *self, bc_button_event_t event, void *even
     if (event == BC_BUTTON_EVENT_PRESS)
     {
         bc_led_set_mode(&led, BC_LED_MODE_TOGGLE);
-        bc_uart_init(BC_UART_UART1, BC_UART_BAUDRATE_115200, BC_UART_SETTING_8N1);
         char uart_tx[] = "AT\r\n";
         bc_uart_write(BC_UART_UART1, uart_tx, strlen(uart_tx));
     }
@@ -38,5 +37,5 @@ void application_init(void)
     bc_button_set_event_handler(&button, button_event_handler, NULL);
 
     // Initialize UART
-    bc_uart_init(BC_UART_UART0, BC_UART_BAUDRATE_115200, BC_UART_SETTING_8N1);
+    bc_uart_init(BC_UART_UART1, BC_UART_BAUDRATE_115200, BC_UART_SETTING_8N1);
 }
