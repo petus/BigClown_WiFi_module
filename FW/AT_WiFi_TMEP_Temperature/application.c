@@ -10,10 +10,10 @@ bc_led_t led;
 bc_tmp112_t temp;
 volatile float temperature = 0.0;
 
-volatile char host[]="NAME.tmep.eu";
-volatile char url[]="GET /index.php?tempC=";
-volatile char SSID[]="\"SSID\",";
-volatile char PASSWORD[]="\"PASSWORD\"";
+static char host[]="NAME.tmep.eu";
+static char url[]="GET /index.php?tempC=";
+static char SSID[]="\"SSID\",";
+static char PASSWORD[]="\"PASSWORD\"";
 
 volatile char uart_tx[120]={0};
 volatile char uart_rx[100]={0};
