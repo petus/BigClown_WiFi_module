@@ -35,11 +35,6 @@ void turnOnESP(void)
 
 void turnOffESP(void)
 {
-    // RESET of ESP8266
-    bc_gpio_init(BC_GPIO_P6);
-    bc_gpio_set_mode(BC_GPIO_P6, BC_GPIO_MODE_OUTPUT);
-    bc_gpio_set_output(BC_GPIO_P6, 0);
-
     // CH_PD of ESP8266 
     bc_gpio_init(BC_GPIO_P8);
     bc_gpio_set_mode(BC_GPIO_P8, BC_GPIO_MODE_OUTPUT);
