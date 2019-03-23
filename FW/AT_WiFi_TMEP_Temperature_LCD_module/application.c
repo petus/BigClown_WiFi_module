@@ -1,3 +1,19 @@
+/*
+* WiFi module with built-in TMP112 and LCD module
+* Temperature TMP112 sensor (I2C0) is buil-in Core module
+* and the sensor sends temperature to BigClown and then the BigClown 
+* sends the temperature to tmep.eu or tmep.cz by WiFi conection (WiFi module).
+* The temperature is also shown on LCD
+* CH_EN pin of ESP8266 module is connected GPIO_P8
+* Reset pin of ESP8266 module is connected to GPIO_P6
+*
+* Created by Petus (2019)
+* (czech)
+* WiFi module https://chiptron.cz/articles.php?article_id=182
+* (english)
+* WiFi module https://time4ee.com/articles.php?article_id=113
+*/
+
 #include <application.h>
 #include <stdio.h>
 #include <string.h>
@@ -12,7 +28,7 @@ bc_led_t led;
 bc_tmp112_t temp;
 volatile float temperature = 0.0;
 
-static char host[]="NAME.tmep.eu";
+static char host[]="HOSTNAME.tmep.eu"; // or HOSTNAME.tmep.cz
 static char url[]="GET /index.php?tempC=";
 static char SSID[]="\"SSID\",";
 static char PASSWORD[]="\"PASSWORD\"";
