@@ -9,3 +9,5 @@ How to use WiFi module for BigClown </br>
 </br>
 The Wi-Fi module is supported by BigClown SDK</br>
 https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/src/bc_esp8266.c</br>
+Example with Wi-Fi module</br>
+https://github.com/bigclownprojects/bcf-wifi-cryptoclock</br>
