@@ -6,3 +6,6 @@ This WiFi module is developed for BigClown IoT platform. The WiFi module can be 
 How to use WiFi module for BigClown </br>
 (czech language) - https://chiptron.cz/articles.php?article_id=182</br>
 (english) - not translated (yet :-) )</br>
+</br>
+The Wi-Fi module is supported by BigClown SDK</br>
+https://github.com/bigclownlabs/bcf-sdk/blob/master/bcl/src/bc_esp8266.c</br>
